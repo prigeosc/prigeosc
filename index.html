@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PRIGEOSC | Geografia, Jogos e Educação</title>
+<meta name="description" content="Explore livros, jogos e experiências digitais de Geografia criados pela PRIGEOSC. Aprenda, revise e jogue.">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="PRIGEOSC | Geografia, Jogos e Educação">
+<meta property="og:description" content="Livros, jogos e experiências digitais para aprender, revisar e jogar Geografia.">
+<meta property="og:image" content="imagens/prigeosc/prigeosc-home.png">
+<meta property="og:locale" content="pt_BR">
+<meta name="theme-color" content="#070d1a">
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" sizes="32x32" href="imagens/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="imagens/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="imagens/favicon-180.png">
+
+<!-- Fontes -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a href="#conteudo" class="skip-link">Pular para o conteúdo</a>
+
+<!-- ============================= NAVBAR ============================= -->
+<header class="navbar" id="navbar">
+  <div class="container">
+    <a href="#inicio" class="brand" aria-label="PRIGEOSC — início">
+      <span class="brand-mark" aria-hidden="true">P</span>
+      PRI<span class="hl">GEO</span>SC
+    </a>
+
+    <nav class="nav-links" aria-label="Navegação principal">
+      <a href="#inicio">Início</a>
+      <a href="#livros">Livros</a>
+      <a href="#jogos">Jogos</a>
+      <a href="#quadrinhos">Quadrinhos</a>
+      <a href="#musicas">Músicas</a>
+      <a href="#reels">Reels</a>
+      <a href="#redes">Redes</a>
+      <a href="#sobre">Sobre</a>
+    </nav>
+
+    <div class="nav-cta desktop-only">
+      <a href="#jogos" class="btn btn-primary btn-sm">🎮 Jogar agora</a>
+    </div>
+
+    <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-panel">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-panel" id="mobile-panel">
+  <a href="#inicio">🏠 Início</a>
+  <a href="#livros">📚 Meus livros</a>
+  <a href="#jogos">🎮 Meus jogos</a>
+  <a href="#quadrinhos">💬 Quadrinhos</a>
+  <a href="#musicas">🎵 Músicas</a>
+  <a href="#reels">🎬 Reels</a>
+  <a href="#redes">📱 Redes sociais</a>
+  <a href="#sobre">👩‍🏫 Sobre a PriGeoSC</a>
+  <div class="nav-cta">
+    <a href="#jogos" class="btn btn-primary btn-block">🎮 Jogar agora</a>
+  </div>
+</div>
+
+<main id="conteudo">
+
+  <!-- ============================= HERO ============================= -->
+  <section class="hero" id="inicio">
+    <div class="radar" aria-hidden="true"><div class="radar-sweep"></div></div>
+    <div class="container">
+      <div class="hero-copy">
+        <span class="eyebrow">27.9°S · GEOGRAFIA CRÍTICA</span>
+        <h1>Geografia para <span class="stroke">aprender</span>,<br>jogar e descobrir o mundo.</h1>
+        <p class="lead">
+          Livros, jogos e experiências digitais que transformam o estudo da Geografia
+          em investigação: quem produz o espaço, quem se beneficia e quem fica de fora.
+        </p>
+        <div class="hero-actions">
+          <a href="#livros" class="btn btn-primary">📚 Explorar livros</a>
+          <a href="#jogos" class="btn btn-ghost">🎮 Jogar agora</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong id="stat-jogos">06</strong><span>Jogos disponíveis</span></div>
+          <div><strong id="stat-livros">04</strong><span>Livros publicados</span></div>
+          <div><strong>6º–3ºEM</strong><span>Fundamental ao médio</span></div>
+          <span class="status-dot">Sistema online</span>
+        </div>
+      </div>
+
+      <div class="hero-figure">
+        <div class="frame reveal">
+          <span class="hud-corner tl" aria-hidden="true"></span>
+          <span class="hud-corner tr" aria-hidden="true"></span>
+          <span class="hud-corner bl" aria-hidden="true"></span>
+          <span class="hud-corner br" aria-hidden="true"></span>
+          <span class="scanline" aria-hidden="true"></span>
+          <img src="imagens/prigeosc/prigeosc-home.png" alt="PRIGEOSC, professora de Geografia, em frente a mapas e globo terrestre">
+          <span class="hud-readout" aria-hidden="true">PRIGEOSC.EXE<br><span class="line2">analisando território…</span></span>
+        </div>
+        <span class="tag-float t1">📍 -27.60, -48.47</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= O QUE VOCÊ ENCONTRA ============================= -->
+  <section class="section">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">O que tem por aqui</span>
+        <h2>Tudo o que você precisa para estudar Geografia de verdade.</h2>
+        <p>Nada de decorar mapa. Aqui a ideia é entender por que as coisas estão onde estão — e o que dá pra fazer com isso.</p>
+      </div>
+
+      <div class="grid-6">
+        <div class="feature-card reveal"><span class="ic">📚</span><h3>Livros</h3><p>Materiais em HTML, prontos para ler direto no navegador, no celular ou no computador.</p></div>
+        <div class="feature-card reveal"><span class="ic">🎮</span><h3>Jogos</h3><p>Missões, quizzes e simulações que transformam conteúdo em investigação geográfica.</p></div>
+        <div class="feature-card reveal"><span class="ic">🌎</span><h3>Geografia</h3><p>Espaço, território, poder e sociedade — sempre ligados ao mundo real.</p></div>
+        <div class="feature-card reveal"><span class="ic">🧠</span><h3>Revisão</h3><p>Conteúdo organizado por tema, pronto para vestibular e ENEM.</p></div>
+        <div class="feature-card reveal"><span class="ic">🏆</span><h3>Desafios</h3><p>Fases, rankings e missões para transformar estudo em progresso visível.</p></div>
+        <div class="feature-card reveal"><span class="ic">💻</span><h3>Tecnologia</h3><p>Tudo pensado para funcionar bem em qualquer tela, sem complicação.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= JOGO EM DESTAQUE (BANNER) ============================= -->
+  <section class="section">
+    <div class="container">
+      <div class="featured-game reveal" id="jogo-principal">
+        <!-- preenchido via js/jogos.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= LIVROS ============================= -->
+  <section class="section section-alt" id="livros">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">📚 Meus livros</span>
+        <h2>Materiais completos, direto no navegador.</h2>
+        <p>Cada livro abre como uma página própria — sem PDF pesado, sem precisar baixar nada.</p>
+      </div>
+
+      <div class="toolbar reveal">
+        <div class="search-box">
+          <input type="search" id="busca-livros" placeholder="Buscar um livro pelo nome..." aria-label="Buscar livro">
+        </div>
+        <div class="filters" id="filtros-livros" role="group" aria-label="Filtrar livros por categoria"></div>
+      </div>
+
+      <div class="grid-books" id="grid-livros"></div>
+    </div>
+  </section>
+
+  <!-- ============================= JOGOS ============================= -->
+  <section class="section" id="jogos">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">🎮 Meus jogos</span>
+        <h2>Aprender jogando, de verdade.</h2>
+        <p>Missões, quizzes e simulações hospedados no GitHub Pages — clique e jogue direto no navegador.</p>
+      </div>
+
+      <div class="toolbar reveal">
+        <div class="search-box">
+          <input type="search" id="busca-jogos" placeholder="Digite o nome de um jogo..." aria-label="Buscar jogo">
+        </div>
+        <div class="filters" id="filtros-jogos" role="group" aria-label="Filtrar jogos por categoria"></div>
+      </div>
+
+      <div class="grid-games" id="grid-jogos"></div>
+    </div>
+  </section>
+
+  <!-- ============================= QUADRINHOS ============================= -->
+  <section class="section section-alt" id="quadrinhos">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">💬 Quadrinhos</span>
+        <h2>Geografia também se conta em quadrinhos.</h2>
+        <p>HQs curtas da PRIGEOSC explicando conceitos difíceis de um jeito visual e direto.</p>
+      </div>
+
+      <div class="grid-4" id="grid-quadrinhos"></div>
+    </div>
+  </section>
+
+  <!-- ============================= SOBRE ============================= -->
+  <section class="section section-alt" id="sobre">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-figure reveal">
+          <div class="frame">
+            <img src="imagens/prigeosc/prigeosc-sobre.png" alt="PRIGEOSC apresentando o projeto, em frente a mapas e telas com dados">
+          </div>
+        </div>
+        <div class="about-copy reveal">
+          <span class="eyebrow">👩‍🏫 Sobre a PriGeoSC</span>
+          <h2>O que é a PRIGEOSC?</h2>
+          <p>
+            A PRIGEOSC é um projeto educacional que utiliza Geografia, tecnologia, jogos, livros
+            e experiências digitais para tornar o aprendizado mais interessante, interativo e
+            conectado ao mundo real. Cada material carrega a mesma pergunta de fundo: quem produz
+            o espaço, quem se beneficia dele e quem fica de fora.
+          </p>
+          <div class="mission-box">
+            <span>Nossa missão</span>
+            <p>Transformar o estudo da Geografia em uma experiência de descoberta.</p>
+          </div>
+          <p class="about-quote">Geografia não é decorar mapa.<br><span>Geografia é entender o mundo — e questioná-lo.</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= MÚSICAS (SUNO) ============================= -->
+  <section class="section" id="musicas">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">🎵 Músicas</span>
+        <h2>Geografia em forma de música.</h2>
+        <p>Composições feitas no Suno para fixar conceitos de outro jeito.</p>
+      </div>
+
+      <div class="music-grid" id="grid-musicas"></div>
+    </div>
+  </section>
+
+  <!-- ============================= REELS (INSTAGRAM) ============================= -->
+  <section class="section section-alt" id="reels">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">🎬 Reels</span>
+        <h2>PRIGEOSC no Instagram.</h2>
+        <p>Conteúdo rápido e visual direto do feed da PRIGEOSC.</p>
+      </div>
+
+      <div class="reels-grid" id="grid-reels"></div>
+    </div>
+  </section>
+
+  <!-- ============================= REDES SOCIAIS ============================= -->
+  <section class="section" id="redes">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="eyebrow">📱 Redes sociais</span>
+        <h2>Siga a PRIGEOSC.</h2>
+        <p>Conteúdo novo, bastidores dos jogos e dicas rápidas de Geografia.</p>
+      </div>
+
+      <div class="social-grid">
+        <a class="social-card reveal" href="https://www.instagram.com/prigeosc?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener">
+          <span class="ic">📸</span>
+          <span><strong>Instagram</strong><span>@prigeosc</span></span>
+        </a>
+        <a class="social-card reveal" href="https://suno.com/@700563" target="_blank" rel="noopener">
+          <span class="ic">🎵</span>
+          <span><strong>Suno</strong><span>@prigeosc</span></span>
+        </a>
+        <a class="social-card reveal" href="https://github.com/" target="_blank" rel="noopener">
+          <span class="ic">💻</span>
+          <span><strong>GitHub</strong><span>prigeosc</span></span>
+        </a>
+        <!-- Para adicionar uma nova rede social, copie um bloco <a class="social-card"> acima e preencha ícone, nome e link. -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================= CTA FINAL ============================= -->
+  <section class="section">
+    <div class="container">
+      <div class="cta-final reveal">
+        <span class="yellow">Pronto para começar?</span>
+        <h2>Escolhe um livro, escolhe um jogo — e vai entender o mundo de um jeito que a decoreba nunca vai te ensinar.</h2>
+        <p>Novos materiais entram no acervo o tempo todo.</p>
+        <div class="hero-actions">
+          <a href="#livros" class="btn btn-primary">📚 Explorar livros</a>
+          <a href="#jogos" class="btn btn-amber">🎮 Jogar agora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================= RODAPÉ ============================= -->
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="imagens/prigeosc/prigeosc-footer.png" alt="PRIGEOSC">
+        <div>
+          <strong style="font-family:var(--font-display); font-size:1.2rem;">PRIGEOSC</strong>
+          <p>Geografia para aprender, jogar e descobrir o mundo.</p>
+        </div>
+      </div>
+      <nav class="footer-col" aria-label="Navegação do rodapé">
+        <h4>Navegação</h4>
+        <a href="#inicio">Início</a>
+        <a href="#livros">Livros</a>
+        <a href="#jogos">Jogos</a>
+        <a href="#quadrinhos">Quadrinhos</a>
+        <a href="#musicas">Músicas</a>
+        <a href="#reels">Reels</a>
+        <a href="#redes">Redes sociais</a>
+      </nav>
+      <div class="footer-col">
+        <h4>Conecte-se</h4>
+        <a href="https://www.instagram.com/prigeosc?utm_source=ig_web_button_share_sheet&igsi=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <div class="footer-col">
+        <h4>PRIGEOSC</h4>
+        <a href="#sobre">Sobre o projeto</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="ano-atual">2026</span> PRIGEOSC — Todos os direitos reservados.</span>
+      <span>Este site foi feito com muito carinho, dedicação e esperança de que ele possa ajudar você nessa caminhada.<p>Cada conteúdo e recurso foi pensado para tornar seus estudos mais leves, organizados e significativos.<p>Que este espaço seja mais uma ferramenta para lembrar que você não está sozinho nessa jornada.<p>Acredite no seu potencial, estude com confiança e vá em busca do seu sonho!</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/app.js"></script>
+<script src="js/livros.js"></script>
+<script src="js/jogos.js"></script>
+<script src="js/quadrinhos.js"></script>
+<script src="js/musicas.js"></script>
+<script src="js/reels.js"></script>
+</body>
+</html>
